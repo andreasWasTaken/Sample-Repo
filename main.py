@@ -16,6 +16,7 @@ def greet(who_to_greet):
 
 # print(greet("World"))
 # print(greet("Andreas"))
+print(greet("Me"))
 
 r = requests.get("https://coreyms.com")
 print(r.status_code)
